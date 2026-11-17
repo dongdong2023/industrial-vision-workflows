@@ -1,0 +1,2 @@
+# 固定上游按字节校验，禁止 Git 自动转换其换行。
+vendor/loopforge/** -text

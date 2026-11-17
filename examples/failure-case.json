@@ -1,0 +1,8 @@
+{
+  "sample_id": "saddles-3",
+  "stage": "localization",
+  "expected": "当前位置误差不超过协议上限",
+  "observed": "合成候选偏移 0.43m",
+  "hypothesis": "局部拟合错误",
+  "evidence_level": "synthetic"
+}

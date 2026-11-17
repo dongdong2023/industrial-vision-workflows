@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "name": "synthetic-calibration",
+  "task": "pointcloud",
+  "evidence_level": "synthetic",
+  "coordinate_unit": "m",
+  "samples": [
+    {
+      "id": "calibration-0",
+      "group": "capture-0",
+      "split": "train",
+      "slice": "sparse",
+      "observations": [
+        {
+          "label": "saddle",
+          "center": [
+            0.12,
+            0.0,
+            0.2
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "saddle",
+          "center": [
+            0.0,
+            0.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calibration-1",
+      "group": "capture-1",
+      "split": "train",
+      "slice": "clear",
+      "observations": [
+        {
+          "label": "saddle",
+          "center": [
+            2.12,
+            0.0,
+            0.2
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "saddle",
+          "center": [
+            2.0,
+            0.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calibration-2",
+      "group": "capture-2",
+      "split": "train",
+      "slice": "sparse",
+      "observations": [
+        {
+          "label": "saddle",
+          "center": [
+            4.12,
+            0.0,
+            0.2
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "saddle",
+          "center": [
+            4.0,
+            0.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calibration-3",
+      "group": "capture-3",
+      "split": "train",
+      "slice": "clear",
+      "observations": [
+        {
+          "label": "saddle",
+          "center": [
+            6.12,
+            0.0,
+            0.2
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "saddle",
+          "center": [
+            6.0,
+            0.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calibration-4",
+      "group": "capture-4",
+      "split": "test",
+      "slice": "sparse",
+      "observations": [
+        {
+          "label": "saddle",
+          "center": [
+            8.12,
+            0.0,
+            0.2
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "saddle",
+          "center": [
+            8.0,
+            0.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calibration-5",
+      "group": "capture-5",
+      "split": "test",
+      "slice": "clear",
+      "observations": [
+        {
+          "label": "saddle",
+          "center": [
+            10.12,
+            0.0,
+            0.2
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "saddle",
+          "center": [
+            10.0,
+            0.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calibration-6",
+      "group": "capture-6",
+      "split": "test",
+      "slice": "sparse",
+      "observations": [
+        {
+          "label": "saddle",
+          "center": [
+            12.12,
+            0.0,
+            0.2
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "saddle",
+          "center": [
+            12.0,
+            0.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calibration-7",
+      "group": "capture-7",
+      "split": "test",
+      "slice": "clear",
+      "observations": [
+        {
+          "label": "saddle",
+          "center": [
+            14.12,
+            0.0,
+            0.2
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "saddle",
+          "center": [
+            14.0,
+            0.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calibration-empty",
+      "group": "capture-empty",
+      "split": "test",
+      "slice": "empty",
+      "observations": [],
+      "ground_truth": []
+    }
+  ]
+}

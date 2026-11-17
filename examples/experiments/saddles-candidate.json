@@ -1,0 +1,16 @@
+{
+  "name": "saddles-candidate",
+  "dataset": "../datasets/saddles.json",
+  "runner": "synthetic-observer",
+  "seed": 7,
+  "timeout_seconds": 10,
+  "parameters": {
+    "min_score": 0.5
+  },
+  "code_version": "synthetic-observer-v1",
+  "model": {
+    "id": "synthetic-observer",
+    "version": "1",
+    "weights": null
+  }
+}

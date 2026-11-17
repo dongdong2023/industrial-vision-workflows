@@ -1,0 +1,93 @@
+{
+  "id": "pointcloud-error-diagnosis",
+  "version": "1.0",
+  "profile": "pointcloud-3d",
+  "route": [
+    "REQUIREMENT",
+    "DESIGN",
+    "IMPLEMENT",
+    "REVIEW",
+    "TEST",
+    "KNOWLEDGE",
+    "SUMMARY"
+  ],
+  "stages": [
+    {
+      "stage": "REQUIREMENT",
+      "role": "Supervisor",
+      "goal": "明确漏检/误检/配组/位置误差，固定数据、单位和坐标。",
+      "skills": [
+        "vision-project-intake",
+        "vision-dataset-audit"
+      ],
+      "engine": null
+    },
+    {
+      "stage": "DESIGN",
+      "role": "Executor",
+      "goal": "建立最早偏离阶段的根因假设和单变量对照。",
+      "skills": [
+        "vision-model-selection",
+        "vision-experiment-design"
+      ],
+      "engine": null
+    },
+    {
+      "stage": "IMPLEMENT",
+      "role": "Executor",
+      "goal": "Experiment Engine 运行基线与候选几何 runner，保留全部被拒案例。",
+      "skills": [
+        "vision-experiment-design",
+        "vision-error-analysis"
+      ],
+      "engine": "experiment-engine"
+    },
+    {
+      "stage": "REVIEW",
+      "role": "Verifier",
+      "goal": "审查是否放宽限制、使用目标数量或旧证书替代当前支持。",
+      "skills": [
+        "vision-evaluation"
+      ],
+      "engine": null
+    },
+    {
+      "stage": "TEST",
+      "role": "Verifier",
+      "goal": "Evaluation Engine 独立计算 TP/FP/FN、配组/定位误差与车辆切片。",
+      "skills": [
+        "vision-evaluation",
+        "vision-edge-deployment"
+      ],
+      "engine": "evaluation-engine"
+    },
+    {
+      "stage": "KNOWLEDGE",
+      "role": "Executor",
+      "goal": "保留反证、失败案例与坐标约束。",
+      "skills": [
+        "vision-error-analysis"
+      ],
+      "engine": null
+    },
+    {
+      "stage": "SUMMARY",
+      "role": "Supervisor",
+      "goal": "交付根因、方案、实际改善和不确定性，不发装载指令。",
+      "skills": [
+        "vision-evaluation"
+      ],
+      "engine": null
+    }
+  ],
+  "checks": [
+    "root-cause",
+    "evidence-audit"
+  ],
+  "required_gate": "LoopForge REQUIREMENT user-confirmed",
+  "outputs": [
+    "experiment-record",
+    "evaluation-report",
+    "workflow-summary"
+  ]
+}

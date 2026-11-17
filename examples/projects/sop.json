@@ -1,0 +1,12 @@
+{
+  "id": "sop",
+  "source_root": "G:\\ECDH\\sop_single_camera_project",
+  "profile": "sop-research",
+  "workflow": "sop-model-research",
+  "read_only": true,
+  "documents": [
+    "README.md",
+    "doc/worker_actions/README.md"
+  ],
+  "question": "对工人动作识别进行基线与候选研究，区分视觉观察、动作事件和工艺完成。"
+}

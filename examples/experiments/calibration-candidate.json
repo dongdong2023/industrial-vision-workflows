@@ -1,0 +1,16 @@
+{
+  "name": "calibration-candidate",
+  "dataset": "../datasets/calibration.json",
+  "runner": "synthetic-trainer",
+  "seed": 7,
+  "timeout_seconds": 10,
+  "parameters": {
+    "calibrate": true
+  },
+  "code_version": "synthetic-calibration-v1",
+  "model": {
+    "id": "synthetic-calibration",
+    "version": "1",
+    "weights": null
+  }
+}

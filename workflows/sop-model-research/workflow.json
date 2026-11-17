@@ -1,0 +1,93 @@
+{
+  "id": "sop-model-research",
+  "version": "1.0",
+  "profile": "sop-research",
+  "route": [
+    "REQUIREMENT",
+    "DESIGN",
+    "IMPLEMENT",
+    "REVIEW",
+    "TEST",
+    "KNOWLEDGE",
+    "SUMMARY"
+  ],
+  "stages": [
+    {
+      "stage": "REQUIREMENT",
+      "role": "Supervisor",
+      "goal": "冻结动作语义、可见证据和独立录像切分；未知完成状态不作负例。",
+      "skills": [
+        "vision-project-intake",
+        "vision-dataset-audit"
+      ],
+      "engine": null
+    },
+    {
+      "stage": "DESIGN",
+      "role": "Executor",
+      "goal": "选择检测/跟踪/姿态/时序候选，固定预算、基线、许可证与实验配置。",
+      "skills": [
+        "vision-model-selection",
+        "vision-experiment-design"
+      ],
+      "engine": null
+    },
+    {
+      "stage": "IMPLEMENT",
+      "role": "Executor",
+      "goal": "Experiment Engine 运行固定 runner；记录实际模型、配置、预测与失败。",
+      "skills": [
+        "vision-experiment-design",
+        "vision-error-analysis"
+      ],
+      "engine": "experiment-engine"
+    },
+    {
+      "stage": "REVIEW",
+      "role": "Verifier",
+      "goal": "检查泄漏、事件语义、时间因果和证据绑定；独立审查实际变更。",
+      "skills": [
+        "vision-evaluation"
+      ],
+      "engine": null
+    },
+    {
+      "stage": "TEST",
+      "role": "Verifier",
+      "goal": "Evaluation Engine 计算 Event Recall、误事件、Evidence Binding 和实时性，分工位/遮挡切片。",
+      "skills": [
+        "vision-evaluation",
+        "vision-edge-deployment"
+      ],
+      "engine": "evaluation-engine"
+    },
+    {
+      "stage": "KNOWLEDGE",
+      "role": "Executor",
+      "goal": "按需沉淀可复用失败模式和被否定假设。",
+      "skills": [
+        "vision-error-analysis"
+      ],
+      "engine": null
+    },
+    {
+      "stage": "SUMMARY",
+      "role": "Supervisor",
+      "goal": "汇总证据和未评估项，给出下一步研究决策。",
+      "skills": [
+        "vision-evaluation"
+      ],
+      "engine": null
+    }
+  ],
+  "checks": [
+    "system-impact",
+    "evidence-audit"
+  ],
+  "required_gate": "LoopForge REQUIREMENT user-confirmed",
+  "outputs": [
+    "experiment-record",
+    "evaluation-report",
+    "workflow-summary"
+  ]
+}

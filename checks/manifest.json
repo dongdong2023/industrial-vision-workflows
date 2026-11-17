@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "root-cause": {
+      "title": "根因分析",
+      "file": "root-cause.md",
+      "when": "误检、漏检、配组或动作事件异常"
+    },
+    "requirement-challenge": {
+      "title": "需求挑战",
+      "file": "requirement-challenge.md",
+      "when": "目标或可观察性不明确"
+    },
+    "system-impact": {
+      "title": "系统影响",
+      "file": "system-impact.md",
+      "when": "修改公共接口或在线路径"
+    },
+    "cross-domain-research": {
+      "title": "跨领域研究",
+      "file": "cross-domain-research.md",
+      "when": "现有路线受限"
+    },
+    "devils-advocate": {
+      "title": "反方论证",
+      "file": "devils-advocate.md",
+      "when": "候选显著优于基线"
+    },
+    "git-archaeology": {
+      "title": "Git 历史考古",
+      "file": "git-archaeology.md",
+      "when": "回归、历史约束或默认开关"
+    },
+    "code-simplification": {
+      "title": "代码简化",
+      "file": "code-simplification.md",
+      "when": "方案重复或分支堆叠"
+    },
+    "pr-analysis": {
+      "title": "PR 分析",
+      "file": "pr-analysis.md",
+      "when": "需要检查实际变更"
+    },
+    "rd-retrospective": {
+      "title": "研发复盘",
+      "file": "rd-retrospective.md",
+      "when": "实验或迭代结束"
+    },
+    "evidence-audit": {
+      "title": "证据与可复现性审计",
+      "file": "evidence-audit.md",
+      "when": "评测、发布与结论交付"
+    }
+  }
+}

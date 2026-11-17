@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "name": "synthetic-detection",
+  "task": "detection",
+  "evidence_level": "synthetic",
+  "coordinate_unit": "normalized",
+  "samples": [
+    {
+      "id": "detection-0",
+      "group": "capture-0",
+      "split": "test",
+      "slice": "clear",
+      "observations": [
+        {
+          "label": "part",
+          "box": [
+            0.1,
+            0.1,
+            0.4,
+            0.4
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "part",
+          "box": [
+            0.1,
+            0.1,
+            0.4,
+            0.4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "detection-1",
+      "group": "capture-1",
+      "split": "test",
+      "slice": "occluded",
+      "observations": [
+        {
+          "label": "part",
+          "box": [
+            0.1,
+            0.1,
+            0.4,
+            0.4
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "part",
+          "box": [
+            0.1,
+            0.1,
+            0.4,
+            0.4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "detection-2",
+      "group": "capture-2",
+      "split": "test",
+      "slice": "clear",
+      "observations": [
+        {
+          "label": "part",
+          "box": [
+            0.1,
+            0.1,
+            0.4,
+            0.4
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "part",
+          "box": [
+            0.1,
+            0.1,
+            0.4,
+            0.4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "detection-3",
+      "group": "capture-3",
+      "split": "test",
+      "slice": "occluded",
+      "observations": [
+        {
+          "label": "part",
+          "box": [
+            0.1,
+            0.1,
+            0.4,
+            0.4
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "part",
+          "box": [
+            0.1,
+            0.1,
+            0.4,
+            0.4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "detection-4",
+      "group": "capture-4",
+      "split": "test",
+      "slice": "clear",
+      "observations": [
+        {
+          "label": "part",
+          "box": [
+            0.1,
+            0.1,
+            0.4,
+            0.4
+          ],
+          "score": 0.55
+        }
+      ],
+      "ground_truth": []
+    },
+    {
+      "id": "detection-5",
+      "group": "capture-5",
+      "split": "test",
+      "slice": "occluded",
+      "observations": [],
+      "ground_truth": []
+    }
+  ]
+}

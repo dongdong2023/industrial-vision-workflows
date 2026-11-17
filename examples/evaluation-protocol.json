@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "split": "test",
+  "minimum_samples": 4,
+  "minimum_negative_samples": 1,
+  "iou_threshold": 0.5,
+  "distance_threshold_m": 0.2,
+  "event_iou_threshold": 0.3,
+  "thresholds": {
+    "recall_min": 0.8,
+    "precision_min": 0.8,
+    "evidence_binding_min": 1.0,
+    "p95_latency_ms_max": 100,
+    "failure_rate_max": 0.0,
+    "center_error_max_m_max": 0.1
+  },
+  "required_metrics": {
+    "detection": [
+      "recall",
+      "precision",
+      "p95_latency_ms",
+      "failure_rate"
+    ],
+    "pointcloud": [
+      "recall",
+      "precision",
+      "center_error_max_m",
+      "p95_latency_ms",
+      "failure_rate"
+    ],
+    "video-action": [
+      "recall",
+      "precision",
+      "evidence_binding",
+      "p95_latency_ms",
+      "failure_rate"
+    ]
+  }
+}

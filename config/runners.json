@@ -1,0 +1,10 @@
+{
+  "synthetic-trainer": {
+    "file": "examples/runners/synthetic_trainer.py",
+    "purpose": "用合成训练集学习三维偏差校正并生成模型，验证训练产物追溯；不是实际点云网络训练。"
+  },
+  "synthetic-observer": {
+    "file": "examples/runners/synthetic_observer.py",
+    "purpose": "合成观测候选过滤，验证执行与评测接口，不是视觉模型或训练结果。"
+  }
+}

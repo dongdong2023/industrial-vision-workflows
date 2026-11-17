@@ -1,0 +1,93 @@
+{
+  "id": "sop-product-development",
+  "version": "1.0",
+  "profile": "sop-product",
+  "route": [
+    "REQUIREMENT",
+    "DESIGN",
+    "IMPLEMENT",
+    "REVIEW",
+    "TEST",
+    "KNOWLEDGE",
+    "SUMMARY"
+  ],
+  "stages": [
+    {
+      "stage": "REQUIREMENT",
+      "role": "Supervisor",
+      "goal": "冻结工艺语义、唯一终态链与异常行为。",
+      "skills": [
+        "vision-project-intake",
+        "vision-dataset-audit"
+      ],
+      "engine": null
+    },
+    {
+      "stage": "DESIGN",
+      "role": "Executor",
+      "goal": "设计观察到 FSM 到 Gateway 的接口、失效处理与回退。",
+      "skills": [
+        "vision-model-selection",
+        "vision-experiment-design"
+      ],
+      "engine": null
+    },
+    {
+      "stage": "IMPLEMENT",
+      "role": "Executor",
+      "goal": "在授权工作区实现并运行回放/模型 runner，业务源项目保持只读。",
+      "skills": [
+        "vision-experiment-design",
+        "vision-error-analysis"
+      ],
+      "engine": "experiment-engine"
+    },
+    {
+      "stage": "REVIEW",
+      "role": "Verifier",
+      "goal": "审查对象身份、过期、幂等和异常路径。",
+      "skills": [
+        "vision-evaluation"
+      ],
+      "engine": null
+    },
+    {
+      "stage": "TEST",
+      "role": "Verifier",
+      "goal": "独立评测事件/证据和性能，测试断流、重连、异常与版本回退。",
+      "skills": [
+        "vision-evaluation",
+        "vision-edge-deployment"
+      ],
+      "engine": "evaluation-engine"
+    },
+    {
+      "stage": "KNOWLEDGE",
+      "role": "Executor",
+      "goal": "记录新增约束和调试依据。",
+      "skills": [
+        "vision-error-analysis"
+      ],
+      "engine": null
+    },
+    {
+      "stage": "SUMMARY",
+      "role": "Supervisor",
+      "goal": "交付候选与限制；不自动激活生产。",
+      "skills": [
+        "vision-evaluation"
+      ],
+      "engine": null
+    }
+  ],
+  "checks": [
+    "system-impact",
+    "evidence-audit"
+  ],
+  "required_gate": "LoopForge REQUIREMENT user-confirmed",
+  "outputs": [
+    "experiment-record",
+    "evaluation-report",
+    "workflow-summary"
+  ]
+}

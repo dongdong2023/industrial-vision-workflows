@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "name": "synthetic-sop",
+  "task": "video-action",
+  "evidence_level": "synthetic",
+  "coordinate_unit": "normalized",
+  "samples": [
+    {
+      "id": "sop-0",
+      "group": "capture-0",
+      "split": "test",
+      "slice": "clear",
+      "observations": [
+        {
+          "label": "place",
+          "start": 1.0,
+          "end": 2.0,
+          "score": 0.8,
+          "evidence": {
+            "sample_id": "sop-0",
+            "time": 1.5,
+            "object_id": "material-1"
+          }
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "place",
+          "start": 1.1,
+          "end": 2.1
+        }
+      ]
+    },
+    {
+      "id": "sop-1",
+      "group": "capture-1",
+      "split": "test",
+      "slice": "occluded",
+      "observations": [
+        {
+          "label": "place",
+          "start": 1.0,
+          "end": 2.0,
+          "score": 0.8,
+          "evidence": {
+            "sample_id": "sop-1",
+            "time": 1.5,
+            "object_id": "material-1"
+          }
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "place",
+          "start": 1.1,
+          "end": 2.1
+        }
+      ]
+    },
+    {
+      "id": "sop-2",
+      "group": "capture-2",
+      "split": "test",
+      "slice": "clear",
+      "observations": [
+        {
+          "label": "place",
+          "start": 1.0,
+          "end": 2.0,
+          "score": 0.8,
+          "evidence": {
+            "sample_id": "sop-2",
+            "time": 1.5,
+            "object_id": "material-1"
+          }
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "place",
+          "start": 1.1,
+          "end": 2.1
+        }
+      ]
+    },
+    {
+      "id": "sop-3",
+      "group": "capture-3",
+      "split": "test",
+      "slice": "occluded",
+      "observations": [
+        {
+          "label": "place",
+          "start": 1.0,
+          "end": 2.0,
+          "score": 0.8,
+          "evidence": {
+            "sample_id": "sop-3",
+            "time": 1.5,
+            "object_id": "material-1"
+          }
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "place",
+          "start": 1.1,
+          "end": 2.1
+        }
+      ]
+    },
+    {
+      "id": "sop-4",
+      "group": "capture-4",
+      "split": "test",
+      "slice": "clear",
+      "observations": [
+        {
+          "label": "place",
+          "start": 1.0,
+          "end": 2.0,
+          "score": 0.55,
+          "evidence": {
+            "sample_id": "wrong-source",
+            "time": 1.5,
+            "object_id": "material-1"
+          }
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "place",
+          "start": 1.1,
+          "end": 2.1
+        }
+      ]
+    },
+    {
+      "id": "sop-5",
+      "group": "capture-5",
+      "split": "test",
+      "slice": "occluded",
+      "observations": [],
+      "ground_truth": []
+    }
+  ]
+}

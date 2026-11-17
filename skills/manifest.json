@@ -1,0 +1,21 @@
+{
+  "skills": [
+    "vision-project-intake",
+    "vision-dataset-audit",
+    "vision-model-selection",
+    "vision-experiment-design",
+    "vision-error-analysis",
+    "vision-evaluation",
+    "vision-edge-deployment"
+  ],
+  "aliases": {
+    "problem-framing": "vision-project-intake",
+    "dataset-audit": "vision-dataset-audit",
+    "model-selection": "vision-model-selection",
+    "experiment-design": "vision-experiment-design",
+    "error-analysis": "vision-error-analysis",
+    "root-cause-analysis": "vision-error-analysis",
+    "engineering-audit": "vision-evaluation"
+  },
+  "note": "保留首批七个 vision-* 稳定 Skill 名；通用名称是别名，根因与工程审计由检查模块补充，不复制 Skill。"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "saddles",
+  "source_root": "G:\\ECDH\\truck-loading-algorithms",
+  "profile": "pointcloud-3d",
+  "workflow": "pointcloud-error-diagnosis",
+  "read_only": true,
+  "documents": [
+    "README.md",
+    "docs/03-saddles.md",
+    "docs/06-validation.md"
+  ],
+  "question": "诊断鞍座漏检与几何定位误差，保留单体/配组边界和 loading_authorized=false。"
+}

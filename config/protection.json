@@ -1,0 +1,10 @@
+{
+  "read_only_roots": [
+    "G:\\ECDH\\industrial-video-intelligence-research",
+    "G:\\ECDH\\sop_single_camera_project",
+    "G:\\ECDH\\truck-loading-algorithms",
+    "G:\\ECDH\\truck_loading_detector_review_20261030",
+    "G:\\ECDH\\industrial-vision-agent-platform"
+  ],
+  "note": "既有项目只读；别名以本机实际下划线路径为准。"
+}

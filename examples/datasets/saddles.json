@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "name": "synthetic-saddles",
+  "task": "pointcloud",
+  "evidence_level": "synthetic",
+  "coordinate_unit": "m",
+  "samples": [
+    {
+      "id": "saddles-0",
+      "group": "capture-0",
+      "split": "test",
+      "slice": "clear",
+      "observations": [
+        {
+          "label": "saddle",
+          "center": [
+            0.03,
+            0.0,
+            0.2
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "saddle",
+          "center": [
+            0.0,
+            0.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saddles-1",
+      "group": "capture-1",
+      "split": "test",
+      "slice": "occluded",
+      "observations": [
+        {
+          "label": "saddle",
+          "center": [
+            2.03,
+            0.0,
+            0.2
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "saddle",
+          "center": [
+            2.0,
+            0.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saddles-2",
+      "group": "capture-2",
+      "split": "test",
+      "slice": "clear",
+      "observations": [
+        {
+          "label": "saddle",
+          "center": [
+            4.03,
+            0.0,
+            0.2
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "saddle",
+          "center": [
+            4.0,
+            0.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saddles-3",
+      "group": "capture-3",
+      "split": "test",
+      "slice": "occluded",
+      "observations": [
+        {
+          "label": "saddle",
+          "center": [
+            6.430000000000001,
+            0.0,
+            0.2
+          ],
+          "score": 0.9
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "saddle",
+          "center": [
+            6.0,
+            0.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saddles-4",
+      "group": "capture-4",
+      "split": "test",
+      "slice": "clear",
+      "observations": [
+        {
+          "label": "saddle",
+          "center": [
+            8.03,
+            0.0,
+            0.2
+          ],
+          "score": 0.55
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "saddle",
+          "center": [
+            8.0,
+            0.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saddles-5",
+      "group": "capture-5",
+      "split": "test",
+      "slice": "occluded",
+      "observations": [],
+      "ground_truth": []
+    }
+  ]
+}

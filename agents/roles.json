@@ -1,0 +1,37 @@
+{
+  "Supervisor": {
+    "stages": [
+      "REQUIREMENT",
+      "SUMMARY"
+    ],
+    "upstream": [
+      "devflow-coordinator",
+      "devflow-summarizer"
+    ],
+    "responsibility": "理解需求、选择路线、调度与汇总；不代写独立审查报告。"
+  },
+  "Executor": {
+    "stages": [
+      "DESIGN",
+      "IMPLEMENT",
+      "KNOWLEDGE"
+    ],
+    "upstream": [
+      "devflow-architect",
+      "devflow-developer",
+      "devflow-knowledge-engineer"
+    ],
+    "responsibility": "技术方案、实验、算法实现与知识沉淀；不同阶段独立 executor ID。"
+  },
+  "Verifier": {
+    "stages": [
+      "REVIEW",
+      "TEST"
+    ],
+    "upstream": [
+      "devflow-code-reviewer",
+      "devflow-test-engineer"
+    ],
+    "responsibility": "独立检查代码与实验，直接运行评测；REVIEW 只写报告，TEST 可改测试不能改业务实现。"
+  }
+}
